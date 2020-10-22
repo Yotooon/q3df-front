@@ -1,0 +1,17 @@
+.DS_STORE
+node_modules
+*.pyc
+.vscode
+*.sublime-project
+*.sublime-workspace
+.idea
+*.log*
+.module-cache
+package-lock.json
+
+logs/*
+!logs/.gitkeep
+
+public/*
+!public/.gitkeep
+!public/index.html
