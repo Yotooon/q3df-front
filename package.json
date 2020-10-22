@@ -1,0 +1,37 @@
+{
+  "name": "q3df_frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "fluxible-js": "^4.4.4",
+    "inferno-fluxible": "^3.1.10",
+    "inferno-router": "^7.4.2",
+    "redefine-statics-js": "^2.0.2"
+  },
+  "scripts": {
+    "start": "webpack --watch --config=webpack.config",
+    "build": "webpack --mode production --config=webpack.config"
+  },
+  "eslintConfig": {},
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-syntax-jsx": "^7.10.1",
+    "@babel/preset-env": "^7.10.3",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-inferno": "^6.1.1",
+    "copy-webpack-plugin": "^6.0.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
